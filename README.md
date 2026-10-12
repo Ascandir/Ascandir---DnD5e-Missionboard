@@ -1,4 +1,4 @@
-# Ascandir - NSC Group Automation
+# Ascandir - DnD5e Missionboard
 
 Foundry VTT v13/v14 · dnd5e 5.x/6.x · nur für den DM
 
@@ -9,7 +9,7 @@ NSC-Gruppen sammeln die besten Werte ihrer Mitglieder und werden über ein **Mis
 Manifest-URL in Foundry (Module installieren):
 
 ```
-https://github.com/Ascandir/Ascandir---NSC-Group-Automation/releases/latest/download/module.json
+https://github.com/Ascandir/Ascandir---DnD5e-Missionboard/releases/latest/download/module.json
 ```
 
 ## Einrichtung

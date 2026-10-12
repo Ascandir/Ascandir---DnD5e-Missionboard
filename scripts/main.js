@@ -1,5 +1,5 @@
 /**
- * Ascandir - NSC Group Automation
+ * Ascandir - DnD5e Missionboard
  * Foundry VTT v13/v14 · dnd5e 5.x/6.x
  *
  * NSC-Gruppen (Actor-Typ "group") sammeln die besten Werte ihrer Mitglieder.
@@ -1699,7 +1699,7 @@ Hooks.once("init", () => {
 
 Hooks.once("ready", () => {
   if (startupErrors.length && game.user.isGM) {
-    ui.notifications.error(`NSC Group Automation: Start-Fehler – ${startupErrors.join(" | ")}`, { permanent: true });
+    ui.notifications.error(`DnD5e Missionboard: Start-Fehler – ${startupErrors.join(" | ")}`, { permanent: true });
   }
   console.log(`${MODULE_ID} | v${game.modules.get(MODULE_ID)?.version} geladen`);
   game.socket.on(SOCKET, onSocket);
